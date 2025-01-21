@@ -15,7 +15,7 @@ Compose to create working [YouTrack](https://www.jetbrains.com/youtrack/) server
 Clone this repository or download the zip.
 
 ```
-git clone https://github.com/Egregors/youtrack-docker-compose.git
+git clone https://github.com/AltairWN/youtrack-docker-compose.git
 ```
 
 ## Configuration
