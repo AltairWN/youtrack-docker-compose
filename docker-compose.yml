@@ -1,6 +1,7 @@
 services:
   traefik:
     image: "traefik:v2.2"
+    restart: "unless_stopped"
     container_name: "traefik"
     command:
       - "--log.level=INFO"
@@ -21,6 +22,7 @@ services:
 
   youtrack:
     image: jetbrains/youtrack:2024.3.56671
+    restart: "unless_stopped"
     container_name: "youtrack"
     volumes:
       - /srv/youtrack/data:/opt/youtrack/data
