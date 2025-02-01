@@ -21,7 +21,7 @@ services:
       - "/var/run/docker.sock:/var/run/docker.sock:ro"
 
   youtrack:
-    image: jetbrains/youtrack:2024.3.56671
+    image: jetbrains/youtrack:2024.3.57595
     restart: "always"
     container_name: "youtrack"
     volumes:
